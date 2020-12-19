@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: gabdantas55/remessa-app
   tag: 0.0.1
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 imagePullSecrets: []
 nameOverride: ""
