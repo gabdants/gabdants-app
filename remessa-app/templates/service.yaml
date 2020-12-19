@@ -11,6 +11,7 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+      port: {{ .Values.service.nodePort }}
   selector:
     app.kubernetes.io/name: {{ include "remessa-app.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
