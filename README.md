@@ -1,4 +1,4 @@
-# remessa-app
+# gabdants-app
 
 This a very simple Python Flask application that returns a message on the base path. 
 
